@@ -1,0 +1,27 @@
+--cpu=Cortex-M4.fp.sp
+"tutorial_u8g2_f4\startup_stm32f401xc.o"
+"tutorial_u8g2_f4\main.o"
+"tutorial_u8g2_f4\stm32f4xx_it.o"
+"tutorial_u8g2_f4\stm32f4xx_hal_msp.o"
+"..\Core\Src\libu8g2.lib"
+"tutorial_u8g2_f4\u8g2_ssd1306_hal.o"
+"tutorial_u8g2_f4\stm32f4xx_hal_i2c.o"
+"tutorial_u8g2_f4\stm32f4xx_hal_i2c_ex.o"
+"tutorial_u8g2_f4\stm32f4xx_hal_rcc.o"
+"tutorial_u8g2_f4\stm32f4xx_hal_rcc_ex.o"
+"tutorial_u8g2_f4\stm32f4xx_hal_flash.o"
+"tutorial_u8g2_f4\stm32f4xx_hal_flash_ex.o"
+"tutorial_u8g2_f4\stm32f4xx_hal_flash_ramfunc.o"
+"tutorial_u8g2_f4\stm32f4xx_hal_gpio.o"
+"tutorial_u8g2_f4\stm32f4xx_hal_dma_ex.o"
+"tutorial_u8g2_f4\stm32f4xx_hal_dma.o"
+"tutorial_u8g2_f4\stm32f4xx_hal_pwr.o"
+"tutorial_u8g2_f4\stm32f4xx_hal_pwr_ex.o"
+"tutorial_u8g2_f4\stm32f4xx_hal_cortex.o"
+"tutorial_u8g2_f4\stm32f4xx_hal.o"
+"tutorial_u8g2_f4\stm32f4xx_hal_exti.o"
+"tutorial_u8g2_f4\system_stm32f4xx.o"
+--strict --scatter "Tutorial_u8g2_F4\Tutorial_u8g2_F4.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Tutorial_u8g2_F4.map" -o Tutorial_u8g2_F4\Tutorial_u8g2_F4.axf
