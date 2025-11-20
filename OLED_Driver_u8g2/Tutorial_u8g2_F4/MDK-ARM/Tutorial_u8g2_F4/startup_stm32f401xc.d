@@ -1,1 +1,0 @@
-tutorial_u8g2_f4\startup_stm32f401xc.o: startup_stm32f401xc.s
